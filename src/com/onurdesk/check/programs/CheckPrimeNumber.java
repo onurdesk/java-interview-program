@@ -3,9 +3,8 @@ package com.onurdesk.check.programs;
 public class CheckPrimeNumber
 {
 
-	public static void main(String[] args)
-	{
-		int n=44;
+	public static void main(String[] args) {
+		int n = 44;
 		primeNumber(n);
 	}
      public static void primeNumber(int n)
