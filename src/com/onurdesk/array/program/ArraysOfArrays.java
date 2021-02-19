@@ -14,8 +14,8 @@ public class ArraysOfArrays {
 		int[][] c = { a, b };
 		System.out.println(c);
 		System.out.println(Arrays.deepToString(c));
-		//int[][] d = { b, c };
-		//System.out.println(Arrays.deepToString(d));
+		// int[][] d = { b, c };
+		// System.out.println(Arrays.deepToString(d));
 
 	}
 

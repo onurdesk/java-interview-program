@@ -1,0 +1,28 @@
+package com.onurdesk.numberpattern.program;
+class StarPattern1
+{
+	/**
+	 * @author Onurdesk
+	 *
+	 *         Thanks for visiting https://onurdesk.com like us on facebook :
+	 *         https://facebook.com/onurdesk
+	 */
+
+    public static void main(String arg[])
+    {
+
+        for (int i = 1; i <= 5; i++)
+        {
+
+            for (int j = i; j <= 5; j++)
+
+            {
+            	System.out.print("*");
+            }
+
+            System.out.println();
+        }
+		System.out.println("Thanks for visiting https://onurdesk.com");
+
+    }
+}

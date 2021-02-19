@@ -8,13 +8,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
 public class ListPrimeNumbers {
 
 	/**
 	 * @param args
-	 * @throws IOException 
-	 * @throws NumberFormatException 
+	 * @throws IOException
+	 * @throws NumberFormatException
 	 */
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
@@ -29,27 +28,26 @@ public class ListPrimeNumbers {
 
 		System.out.println("Prime numbers From 1 to " + limit);
 
-		//loop from 1 to limit
-		for(int i=1; i < limit; i++){
+		// loop from 1 to limit
+		for (int i = 1; i < limit; i++) {
 
 			boolean isPrime = true;
 
-			//check to see if the number is prime
-			for(int j=2; j < i ; j++){
+			// check to see if the number is prime
+			for (int j = 2; j < i; j++) {
 
-				if(i % j == 0){
+				if (i % j == 0) {
 					isPrime = false;
 					break;
 				}
 			}
 			// print the number
-			if(isPrime)
+			if (isPrime)
 				System.out.print(i + " ");
 		}
 	}
 
 }
-
 
 //18.Program Output:
 //----------------
