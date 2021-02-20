@@ -1,6 +1,5 @@
 package com.onurdesk.find.programs;
 
-
 public class FIndSecondLargestElementInArray {
 
 	public static void main(String[] args) {

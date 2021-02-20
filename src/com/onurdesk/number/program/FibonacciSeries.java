@@ -8,15 +8,13 @@ import java.util.Scanner;
 
 public class FibonacciSeries {
 
-
 	public static void main(String[] args) {
 		FibonacciSeries obj = new FibonacciSeries();
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter number to generate Fibonacci Series: ");
 		int num = input.nextInt();
 		System.out.println("Fibonacci Series: ");
-		for(int i=0;i<num;i++)
-		{
+		for (int i = 0; i < num; i++) {
 			System.out.println(obj.fibonacci(i));
 		}
 	}

@@ -1,5 +1,6 @@
 package com.onurdesk.number.program;
 //--------------------------------------------------
+
 //24.Generate Random Numbers
 //--------------------------------------------------
 
@@ -11,7 +12,7 @@ public class GenerateRandomNumber {
 		int i;
 		System.out.println("Enter how many random number need to generate: ");
 		Scanner inputNumber = new Scanner(System.in);
-		int count=inputNumber.nextInt();
+		int count = inputNumber.nextInt();
 		Random randNum = new Random();
 
 		System.out.println("Random Numbers: ");

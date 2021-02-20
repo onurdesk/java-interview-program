@@ -1,4 +1,5 @@
 package com.onurdesk.number.program;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,7 +13,7 @@ public class FindGreaterNumber {
 	 */
 	public static void main(String[] args) throws IOException {
 
-		int number1,number2;  
+		int number1, number2;
 
 		InputStreamReader read = new InputStreamReader(System.in);
 		BufferedReader in = new BufferedReader(read);
@@ -25,10 +26,9 @@ public class FindGreaterNumber {
 
 		number2 = Integer.parseInt(in.readLine());
 
-
-		if(number1 > number2)
-			System.out.println(number1+" is greater than "+number2);
+		if (number1 > number2)
+			System.out.println(number1 + " is greater than " + number2);
 		else
-			System.out.println(number2+" is greater than "+number1);
+			System.out.println(number2 + " is greater than " + number1);
 	}
 }

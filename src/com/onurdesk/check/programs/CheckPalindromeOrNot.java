@@ -1,4 +1,5 @@
 package com.onurdesk.check.programs;
+
 import java.util.Scanner;
 
 public class CheckPalindromeOrNot {
@@ -38,13 +39,11 @@ public class CheckPalindromeOrNot {
 	// in String Palindrome
 	private static boolean isPalindrome(String str) {
 		char str1[] = str.toCharArray();
-		int size = str1.length-1;
+		int size = str1.length - 1;
 		System.out.println(size);
 
-		for (int i = 0; i <= size; i++)
-		{
-			if (str1[i] != str1[size]) 
-			{
+		for (int i = 0; i <= size; i++) {
+			if (str1[i] != str1[size]) {
 				return false;
 			}
 			size--;

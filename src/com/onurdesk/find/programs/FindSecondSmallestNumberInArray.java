@@ -1,6 +1,5 @@
 package com.onurdesk.find.programs;
 
-
 public class FindSecondSmallestNumberInArray {
 
 	public static void main(String[] args) {
